@@ -32,6 +32,8 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('com.google.guava:guava:26.0-jre')
+	compile('joda-time:joda-time:2.10')
 	compileOnly('org.projectlombok:lombok')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
